@@ -43,7 +43,6 @@ public class EnviarDatos extends HttpServlet {
             out.println("<h3>Su modelo de vehiculo es : " + modelo + "</h3>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet EnviarDatos at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
